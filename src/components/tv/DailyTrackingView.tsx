@@ -32,10 +32,10 @@ function parseUph(value: string | null | undefined): number | null {
 }
 
 const ACCENT = {
-  cyan: { bg: 'bg-cyan-500/90', text: 'text-cyan-300' },
-  red: { bg: 'bg-red-500/90', text: 'text-red-400' },
-  amber: { bg: 'bg-amber-500/90', text: 'text-amber-300' },
-  slate: { bg: 'bg-slate-600/90', text: 'text-slate-300' },
+  cyan: { bg: 'bg-amber-200/90', text: 'text-amber-200' },
+  red: { bg: 'bg-amber-400/90', text: 'text-amber-400' },
+  amber: { bg: 'bg-orange-400/90', text: 'text-orange-400' },
+  slate: { bg: 'bg-neutral-700/90', text: 'text-neutral-300' },
 } as const
 type Accent = keyof typeof ACCENT
 
@@ -146,7 +146,7 @@ export function DailyTrackingView({
       >
         <div
           style={{ gridRow: 'span 2' }}
-          className="flex items-center justify-center border border-white/10 bg-slate-700/90 font-display font-extrabold text-white uppercase tracking-wide"
+          className="flex items-center justify-center border border-white/10 bg-neutral-800 font-display font-extrabold text-white uppercase tracking-wide"
         >
           <span style={{ fontSize: 'clamp(16px, 2.4vh, 30px)' }}>Hour</span>
         </div>
@@ -184,7 +184,7 @@ export function DailyTrackingView({
           return (
             <Fragment key={slot}>
               <div
-                className="flex items-center justify-center border border-white/10 bg-slate-700/40 font-display font-bold text-slate-200"
+                className="flex items-center justify-center border border-white/10 bg-neutral-800/70 font-display font-bold text-amber-300"
                 style={{ fontSize: 'clamp(17px, 2.6vh, 32px)' }}
               >
                 {slot}

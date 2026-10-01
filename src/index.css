@@ -3,11 +3,11 @@
 
 :root {
   --radius: 0.75rem;
-  --bg-primary: #0f1729;
-  --bg-panel: #16203c;
-  --bg-panel-border: #24304f;
+  --bg-primary: #000000;
+  --bg-panel: #121212;
+  --bg-panel-border: #3d3320;
   --fiege-red: #f9b629;
-  --accent-cyan: #34d1ec;
+  --accent-cyan: #ffd166;
   --accent-amber: #e8a940;
   --focus-amber: #f97316;
   --text-primary: #fff;

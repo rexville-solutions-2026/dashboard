@@ -19,10 +19,9 @@ export function OpsStatTile({
     <div
       className="panel ambient sheen stagger-in relative flex h-full min-h-0 flex-col justify-between overflow-hidden p-6"
       style={{
-        borderColor: color,
+        borderColor: '#3a3a3a',
         borderWidth: 2,
-        borderTopWidth: 6,
-        background: `linear-gradient(135deg, var(--bg-panel) 0%, color-mix(in oklab, ${color} 18%, var(--bg-panel)) 100%)`,
+        background: `linear-gradient(135deg, var(--bg-panel) 0%, color-mix(in oklab, ${color} 7%, var(--bg-panel)) 100%)`,
         animationDelay: `${delay}ms`,
       }}
     >

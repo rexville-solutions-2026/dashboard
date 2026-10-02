@@ -104,16 +104,16 @@ function AdminPanel() {
         <header className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/10 bg-[var(--panel-2)] px-5 py-4">
           <div className="flex items-center gap-3">
             <div
-              className="flex h-10 w-10 items-center justify-center rounded-lg border-2 border-red-400/70 font-display text-lg font-bold text-red-400"
+              className="flex h-10 w-10 items-center justify-center rounded-lg border-2 border-amber-400/70 font-display text-lg font-bold text-amber-400"
               style={{ clipPath: 'polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)' }}
             >
-              F
+              R
             </div>
             <div className="font-display text-2xl font-extrabold uppercase tracking-wide">Admin Panel</div>
           </div>
           <Link
-            to="/top5"
-            className="flex items-center gap-2 rounded-full bg-red-500 px-4 py-2 font-display text-sm font-bold uppercase tracking-wide text-white transition hover:bg-red-400"
+            to="/"
+            className="flex items-center gap-2 rounded-full bg-amber-400 px-4 py-2 font-display text-sm font-bold uppercase tracking-wide text-black transition hover:bg-amber-300"
           >
             <ArrowLeft size={16} />
             TV Board
